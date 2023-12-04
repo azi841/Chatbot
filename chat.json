@@ -1,0 +1,164 @@
+[
+    {
+      "response_type": "greeting",
+      "user_input": ["hello", "hi", "hey"],
+      "chatbot_response": "Hey there!",
+      "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how","are","you"],
+      "chatbot_response":"I am great! Thanks for asking. How can I help you?",
+      "required_words": []
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what", "is", "the", "smallest", "unit", "of", "life"],
+      "chatbot_response": "The smallest unit of life is a cell. Cells are tiny, but they are complex and contain everything a living thing needs to survive. Cells can be found in all living things, from plants and animals to bacteria and viruses.",
+      "required_words": ["smallest", "unit", "life"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","theory","of","evolution"],
+      "chatbot_response": "The theory of evolution is the idea that all living things on Earth are descended from a common ancestor. This means that all living things share a common origin, and that over time, they have evolved and changed to adapt to their environment.",
+      "required_words": ["theory", "of","evolution"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","big","bang", "theory"],
+      "chatbot_response": "The Big Bang theory is the most widely accepted explanation for how the universe began. It states that the universe began as a very hot, dense point about 13.8 billion years ago. This point then rapidly expanded and cooled, and eventually formed the universe we see today.",
+      "required_words": ["big","bang","theory"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","big","bang", "theory"],
+      "chatbot_response": "Did you mean the Bigbang theory? \nThe Big Bang theory is the most widely accepted explanation for how the universe began. It states that the universe began as a very hot, dense point about 13.8 billion years ago. This point then rapidly expanded and cooled, and eventually formed the universe we see today.",
+      "required_words": ["bigbang","theory"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","water","cycle"],
+      "chatbot_response": "The water cycle is the continuous movement of water on, above, and below the surface of the Earth. Water evaporates from the surface of the Earth and into the atmosphere, where it condenses to form clouds. Clouds eventually release water as precipitation, which falls to the Earth as rain, snow, or hail. Water then runs off the land into rivers and streams, and eventually flows back to the ocean.",
+      "required_words": ["water","cycle"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","photosynthesis"],
+      "chatbot_response": "Photosynthesis is the process by which plants, algae, and some bacteria use sunlight to convert carbon dioxide and water into sugar and oxygen. Photosynthesis is essential for life on Earth, because it produces the oxygen that we breathe.",
+      "required_words": ["photosynthesis"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","photosynthesis"],
+      "chatbot_response": "Photosynthesis is the process by which plants, algae, and some bacteria use sunlight to convert carbon dioxide and water into sugar and oxygen. Photosynthesis is essential for life on Earth, because it produces the oxygen that we breathe.",
+      "required_words": ["photosynthesis"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","raspiration"],
+      "chatbot_response": "Respiration is the process by which cells break down food molecules to release energy. This energy is then used to power the cell's activities. Respiration is essential for life, because it provides the energy that cells need to function.",
+      "required_words": ["raspiration"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","dna"],
+      "chatbot_response": "DNA is the genetic material that is found in all living cells. DNA contains the instructions that tell cells how to grow, develop, and function. DNA is passed from parents to their offspring, and it determines the traits that an offspring will inherit.",
+      "required_words": ["dna"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","are","atoms"],
+      "chatbot_response": "Atoms are the smallest particles that make up matter. Atoms are made up of protons, neutrons, and electrons. Protons and neutrons are located in the nucleus of the atom, and electrons are located in the electron cloud around the nucleus.",
+      "required_words": ["atoms"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","gravity"],
+      "chatbot_response": "Gravity is the force that attracts objects with mass toward each other. Gravity is responsible for keeping us on the Earth, and it is also responsible for the formation of planets, stars, and galaxies.",
+      "required_words": ["gravity"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","light"],
+      "chatbot_response": "Light is a form of energy that travels in waves. Light waves can be seen by the human eye, but they can also be invisible, such as ultraviolet and infrared light. Light is essential for life on Earth, because it allows plants to carry out photosynthesis.",
+      "required_words": ["light"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what", "are", "the", "basic", "building", "blocks", "of", "matter"],
+      "chatbot_response": "The basic building blocks of matter are atoms. Atoms combine to form molecules, and molecules make up everything around us.",
+      "required_words": ["basic", "building", "blocks", "matter"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how","do","plants","convert","sunlight","into","energy"],
+      "chatbot_response": "Plants convert sunlight into energy through a process called photosynthesis. During photosynthesis, plants use sunlight to transform carbon dioxide and water into glucose and oxygen.",
+      "required_words": ["plants", "convert", "sunlight", "energy"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","role","of","mitochondria","in","a","cell"],
+      "chatbot_response": "Mitochondria are the powerhouse of the cell. They are responsible for producing energy in the form of ATP through cellular respiration.",
+      "required_words": ["role", "mitochondria", "cell"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","are","the","major","branches","of","science"],
+      "chatbot_response": "The major branches of science include physics, chemistry, biology, and Earth science. Each branch focuses on different aspects of the natural world.",
+      "required_words": ["major", "branches", "science"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how","do","scientists","determine","the","age","of","fossils"],
+      "chatbot_response": "Scientists determine the age of fossils through a process called radiometric dating. This method relies on measuring the decay of radioactive isotopes in the fossil.",
+      "required_words": ["age", "fossils", "scientists"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","structure","of","the","Earth's","atmosphere"],
+      "chatbot_response": "The Earth's atmosphere consists of several layers: troposphere, stratosphere, mesosphere, thermosphere, and exosphere. Each layer has distinct characteristics and plays a crucial role in Earth's climate.",
+      "required_words": ["structure", "Earth's", "atmosphere"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how","does","vaccination","work"],
+      "chatbot_response": "Vaccination works by introducing a harmless part of a pathogen (virus or bacteria) into the body, stimulating the immune system to produce a response. This helps the body recognize and fight the actual pathogen in the future.",
+      "required_words": ["vaccination", "work"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","the","structure","of","the","DNA","double","helix"],
+      "chatbot_response": "The DNA double helix has a twisted-ladder structure, with two strands forming a spiral. The strands are made up of nucleotides, each containing a phosphate group, a sugar molecule, and one of four nitrogenous bases: adenine, thymine, cytosine, or guanine.",
+      "required_words": ["structure", "DNA", "double", "helix"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how","do","scientists","study","distant","galaxies"],
+      "chatbot_response": "Scientists study distant galaxies through telescopes that can detect various wavelengths of light. They analyze the light emitted or reflected by galaxies to learn about their composition, age, and distance from Earth.",
+      "required_words": ["study", "distant", "galaxies", "scientists"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","nanotechnology"],
+      "chatbot_response": "Nanotechnology involves manipulating matter at the nanoscale (atomic and molecular levels). It has applications in medicine, electronics, and materials science, enabling the creation of innovative and advanced technologies.",
+      "required_words": ["nanotechnology"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how","do","magnetic","fields","affect","objects"],
+      "chatbot_response": "Magnetic fields can attract or repel objects depending on their magnetic properties. Objects with magnetic materials, like iron, experience forces in the presence of magnetic fields, leading to various phenomena such as attraction and alignment.",
+      "required_words": ["magnetic", "fields", "affect", "objects"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["what","is","dark","matter"],
+      "chatbot_response": "Dark matter is a mysterious substance that does not emit, absorb, or reflect light. Its presence is inferred from its gravitational effects on visible matter. Scientists are still exploring its nature and role in the universe.",
+      "required_words": ["dark", "matter"]
+    },
+    {
+      "response_type": "question",
+      "user_input": ["how","do","chemical","reactions","occur"],
+      "chatbot_response": "Chemical reactions occur when substances interact, leading to the formation of new substances. This involves the breaking and forming of chemical bonds. Factors like temperature, pressure, and concentration influence reaction rates.",
+      "required_words": ["chemical", "reactions", "occur"]
+    }
+  ]
