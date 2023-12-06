@@ -6,7 +6,7 @@ import random_responses
 # Load JSON data from the specified file
 def load_json(file):
     with open(file, 'r') as bot_responses:
-        print("Openfabric Chatbot: Greetings. I am Openfabric Chatbot. How can I assist you today?")
+        print("Chatbot: Greetings. I am Chatbot. How can I assist you today?")
         return json.load(bot_responses)
 
 # Store loaded JSON data
@@ -57,5 +57,6 @@ def get_response(input_string):
 while True:
     user_input = input("You: ")
     if user_input.lower() == "exit":
+        print("Chatbot: Goodbye :)")
         break
-    print("Openfabric Chatbot:", get_response(user_input))
+    print("Chatbot:", get_response(user_input))

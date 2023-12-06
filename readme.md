@@ -1,9 +1,9 @@
-Openfabric Chatbot README
+Chatbot README
 Overview
-Welcome to Openfabric Chatbot, a simple Python-based chatbot designed to provide responses to user input based on predefined rules. This chatbot is equipped to handle a variety of user queries and engage in meaningful conversations.
+Welcome to Chatbot, a simple Python-based chatbot designed to provide responses to user input based on predefined rules. This chatbot is equipped to handle a variety of user queries and engage in meaningful conversations.
 
 Getting Started
-To use the Openfabric Chatbot, follow these steps:
+To use the Chatbot, follow these steps:
 
 *Ensure you have Python installed on your system.
 *Clone the given repository
@@ -31,5 +31,5 @@ Customization
 Feel free to customize the chatbot's responses by modifying the chat.json file. Each entry in the JSON file includes a user_input field containing keywords that trigger the response, a chatbot_response field with the corresponding reply, and a required_words field for additional filtering.
 
 Contributors
-This project is maintained by [Your Name].
+This project is maintained by Azhar.
 Contributions and feedback are welcome. Please submit issues or pull requests.
