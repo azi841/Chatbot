@@ -1,34 +1,35 @@
-# AI Junior Developer (Intern) Test 
-Welcome! and thank you for applying! 
+Openfabric Chatbot README
+Overview
+Welcome to Openfabric Chatbot, a simple Python-based chatbot designed to provide responses to user input based on predefined rules. This chatbot is equipped to handle a variety of user queries and engage in meaningful conversations.
 
-## Requirement
-The current project has the blueprint structure of an AI App. 
+Getting Started
+To use the Openfabric Chatbot, follow these steps:
 
-Your mission is to implement an 💬NLP chatbot **answering questions about science**. 
+*Ensure you have Python installed on your system.
+*Download the provided code files: main.py, random_responses.py, and chat.json.
+*Run the chatbot by executing the main.py script in your preferred Python environment.
 
-You will add your logic to the `main.py` file inside the `execute` function. 
-```python
-def execute(request: SimpleText, ray: OpenfabricExecutionRay) -> SimpleText:
-    output = []
-    for text in request.text:        
-        response = '' # <<< --Your magic goes here
-        output.append(response)
+Features
+1. Greetings
+The chatbot starts the conversation with a friendly greeting: "Hey there!"
 
-    return SimpleText(dict(text=output))
-```
-## Constraints and restrictions
-You are free to use any package or library you see feet as long as you follow these rules:
-* 👎 You can't call any external service (e.g. chatGPT) 
-* 👎 You can't copy and paste from other peoples work 
+2. Question Responses
+The chatbot is designed to respond to specific user questions. Examples include inquiries about the smallest unit of life, the theory of evolution, the Big Bang theory, the water cycle, photosynthesis, and various other scientific topics.
 
-## Run
-The application can be executed in two different ways:
-* locally by running the `start.sh` 
-* on in a docker container using `Dockerfile` 
+3. Random Responses
+When the chatbot is unable to understand the user's input, it provides a random response from a predefined list to maintain engagement.
 
-## Submission
-Your solution must be uploaded on GitHub, and submit us the link in **max 1 week** after receiving the task.
+Usage
+*Run the main.py script.
+*Enter your queries when prompted with "You: ".
+*Interact with the chatbot, and it will respond accordingly.
 
-## Note
-Keep in mind that this is the project that will be used to evaluate your skills.
-So we do expect you to make sure that the app is fully functional and doesn't have any obvious missing pieces.
+Exiting the Chatbot
+*To exit the chatbot, type "exit" when prompted for input.
+
+Customization
+Feel free to customize the chatbot's responses by modifying the chat.json file. Each entry in the JSON file includes a user_input field containing keywords that trigger the response, a chatbot_response field with the corresponding reply, and a required_words field for additional filtering.
+
+Contributors
+This project is maintained by [Your Name].
+Contributions and feedback are welcome. Please submit issues or pull requests.
