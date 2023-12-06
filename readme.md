@@ -6,7 +6,7 @@ Getting Started
 To use the Openfabric Chatbot, follow these steps:
 
 *Ensure you have Python installed on your system.
-*Download the provided code files: main.py, random_responses.py, and chat.json.
+*Clone the given repository
 *Run the chatbot by executing the main.py script in your preferred Python environment.
 
 Features
