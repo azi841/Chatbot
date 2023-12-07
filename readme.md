@@ -6,9 +6,9 @@ Getting Started
 
 To use the Chatbot, follow these steps:
 
-*Ensure you have Python installed on your system.
-*Clone the given repository
-*Run the chatbot by executing the main.py script in your preferred Python environment.
+* Ensure you have Python installed on your system.
+* Clone the given repository
+* Run the chatbot by executing the main.py script in your preferred Python environment.
 
 Features:
 1. Greetings
