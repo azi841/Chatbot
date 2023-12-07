@@ -1,8 +1,9 @@
-#Chatbot README
-Overview
+Chatbot README
+
 Welcome to Chatbot, a simple Python-based chatbot designed to provide responses to user input based on predefined rules. This chatbot is equipped to handle a variety of user queries and engage in meaningful conversations.
 
 Getting Started
+
 To use the Chatbot, follow these steps:
 
 *Ensure you have Python installed on your system.
